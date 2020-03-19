@@ -1,13 +1,29 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content {
+  padding: 30px 30px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+}
+.row-flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+.alert {
+  transition: 0.2s;
+}
+.modal {
+  background: url("https://s1.1zoom.me/b5050/984/Canada_Parks_Lake_Mountains_Forests_Scenery_Rocky_567540_2880x1800.jpg")no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
 }

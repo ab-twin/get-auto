@@ -5,9 +5,9 @@ const withGetautoService = () => (Wrapped) => {
     return (props) => {
         return (
             <GetautoServiceConsumer>
-                {(GetautoService) => {
+                {(getautoService) => {
                     //const serviceProps = mapMethodToProps(bookstoreService);
-                    return <Wrapped {...props} {...GetautoService} />;
+                    return <Wrapped {...props} getautoService={getautoService} />;
                 }}
             </GetautoServiceConsumer>
         );
